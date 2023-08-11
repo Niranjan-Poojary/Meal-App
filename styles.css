@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "M PLUS 2", sans-serif;
   }
 body{
      
@@ -33,6 +33,9 @@ body{
     padding: 14px 20px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bold;
+    height: 60px;
+    
   }
    /* Change the color of links on hover */
    .topnav a:hover {
@@ -43,4 +46,122 @@ body{
    .topnav a.active {
     background-color: #04aa6d;
     color: white;
+    
   }
+
+  /* styling on search bar*/
+  .form-container {
+    margin-top: 15vh;
+  }
+
+  #inputText {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 34vw;
+    font-weight: 400;
+  }
+
+  #btn {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: #04aa6d;
+  }
+  #btn:hover{
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 0 30px #2E94E3;
+  }
+
+  #list-Items-container {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    padding: 30px;
+  }
+
+  #list-Items-container-favorites {
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    padding: 30px;
+    margin-top: 100px;
+  }
+  #details-list-container-whole {
+    display: flex;
+  }
+  #details-list-container-heading {
+    width: auto;
+    height: 40px;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-top: 10px;
+  
+    text-decoration: underline;
+  }
+
+  #details-list-container {
+    width: 40%;
+    height: auto;
+    font-size: large;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-top: 100px;
+  }
+  #details-list-container-image {
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+  }
+  #details-list-container-image > img {
+    width: 350px;
+    height: 350px;
+  }
+  .food-card {
+    border: 2px solid rgb(252, 245, 243);
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    background: white;
+    margin: 10px;
+  }
+  .food-card-image > img {
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  .food-card-info {
+    color: black;
+    font-weight: bold;
+  
+  }
+  .food-card-info > h3 {
+    padding: 3px;
+  }
+  .food-card-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .food-card-features > button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #f4c531;
+  }
+  .food-card-features > button:hover
+{
+  cursor: pointer;
+    background: #fff;
+    box-shadow: 0 0 30px #ae2929;
+}
